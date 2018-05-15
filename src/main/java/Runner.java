@@ -9,11 +9,9 @@ public class Runner {
         Author author = new Author("Cormac", "McCarthy", "The Orchard Keeper", "Outer Dark", "Child of God", "Suttree", "Blood Meridian or the Evening Redness in the West");
         DBAuthor.save(author);
 
-//        DBAuthor.delete(author);
+        DBAuthor.delete(author);
 
         List<Author> authors = DBAuthor.getAuthors();
-
-
 
         Author foundAuthor = DBAuthor.find(author.getId());
     }

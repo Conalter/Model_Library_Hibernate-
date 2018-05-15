@@ -10,6 +10,6 @@
         </id>
         <property name="firstName" type="string" column="first_name"/>
         <property name="lastName" type="string" column="last_name"/>
-        <property name="bookNo1" type="string" column="bookNo1"/>
+
     </class>
 </hibernate-mapping>

@@ -8,10 +8,6 @@
     <artifactId>Hibernate_Homework</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <groupId>com.codeclan.example</groupId>
-    <artifactId>Hibernate_Homework</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
